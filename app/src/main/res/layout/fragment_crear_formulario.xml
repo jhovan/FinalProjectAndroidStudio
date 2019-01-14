@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CrearFormulario">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!-- Contenu principal -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ededed"
+        android:gravity="start"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/BarraNombres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            style="?android:attr/buttonBarStyle">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_nombre"
+                android:gravity="start"
+                android:textColor="@color/colorPrimaryDark"
+                />
+
+            <EditText
+                android:id="@+id/TxtNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textSize="13sp"
+
+                />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/message"
+            android:gravity="start"
+            android:textColor="@color/colorPrimaryDark"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/processor_message"
+            android:gravity="start"
+            android:textColor="@color/colorPrimaryDark"
+            />
+
+        <RadioGroup android:id="@+id/GrbGrupo1"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RadioButton android:id="@+id/RbOpcion1_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/opcion1_1" />
+
+            <RadioButton android:id="@+id/RbOpcion1_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/opcion1_2" />
+
+            <RadioButton android:id="@+id/RbOpcion1_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/opcion1_3" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/storage_message"
+            android:gravity="start"
+            android:textColor="@color/colorPrimaryDark"
+            />
+
+        <RadioGroup android:id="@+id/GrbGrupo2"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RadioButton android:id="@+id/RbOpcion2_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/opcion2_1"
+                android:checked="true"
+                />
+
+            <RadioButton android:id="@+id/RbOpcion2_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/opcion2_2" />
+
+            <RadioButton android:id="@+id/RbOpcion2_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/opcion2_3" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/accessories_message"
+            android:gravity="start"
+            android:textColor="@color/colorPrimaryDark"
+            />
+
+
+        <CheckBox android:id="@+id/ChkCargador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_cargador"
+            android:checked="false" />
+
+        <CheckBox android:id="@+id/ChkAudifonos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_audifonos"
+            android:checked="false" />
+
+        <LinearLayout
+            android:id="@+id/BarraBotones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            style="?android:attr/buttonBarStyle">
+
+            <Button android:id="@+id/BtnAceptar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/Aceptar"
+                style="?android:attr/buttonBarButtonStyle" />
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CrearNota">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:inputType="text"
+            android:text="@string/view_name_input"/>
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:id="@+id/TxtNombreArchivoCrear"
+            android:layout_width="match_parent"
+            android:inputType="text"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:inputType="text"
+            android:text="@string/view_content_input"/>
+
+
+        <EditText
+            android:layout_height="0dp"
+            android:id="@+id/TxtContenidoCrear"
+            android:layout_width="match_parent"
+            android:inputType="textMultiLine"
+            android:gravity="top"
+            android:layout_weight="10" />
+
+        <Button
+            android:layout_height="wrap_content"
+            android:id="@+id/BtnCrear"
+            android:layout_width="match_parent"
+            android:layout_weight="0.5"
+            android:text="@string/btn_crear"
+            android:layout_gravity="center"
+            style="?android:attr/buttonBarButtonStyle" />
+
+    </LinearLayout>
+
+</FrameLayout>
