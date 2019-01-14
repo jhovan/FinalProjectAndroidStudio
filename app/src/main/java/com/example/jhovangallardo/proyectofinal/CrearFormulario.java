@@ -24,7 +24,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 /**
- * A simple {@link Fragment} subclass.
+ * A simple {@link Fragment} subclass. Fragmento en el que se seleccionan las opciones de la computadora a comprar
  */
 public class CrearFormulario extends Fragment {
 

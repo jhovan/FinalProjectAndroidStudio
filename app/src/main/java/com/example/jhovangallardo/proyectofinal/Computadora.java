@@ -3,6 +3,10 @@ package com.example.jhovangallardo.proyectofinal;
 import android.os.Parcel;
 import android.os.Parcelable;
 
+/**
+ * Clase que define el comportamiento de una computadora, principalmente sus atributos principales, funciona como Bean
+ */
+
 public class Computadora implements Parcelable{
     private String cliente;
     private String procesador;

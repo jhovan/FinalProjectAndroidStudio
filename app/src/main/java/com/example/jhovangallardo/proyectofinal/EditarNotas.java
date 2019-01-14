@@ -19,7 +19,7 @@ import java.io.IOException;
 
 
 /**
- * A simple {@link Fragment} subclass.
+ * A simple {@link Fragment} subclass. Fragmento que muestra la funcionalidad para editar una nota existente.
  */
 public class EditarNotas extends Fragment {
     private Button btnAbrir;

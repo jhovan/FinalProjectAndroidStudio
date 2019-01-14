@@ -18,7 +18,7 @@ import android.widget.RadioButton;
 
 
 /**
- * A simple {@link Fragment} subclass.
+ * A simple {@link Fragment} subclass. Fragmento que permite editar una orden previamente seleccionada y guardar los cambios
  */
 public class EditarFormulario2 extends Fragment {
 

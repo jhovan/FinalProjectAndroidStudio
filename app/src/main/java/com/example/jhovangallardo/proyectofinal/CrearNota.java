@@ -20,7 +20,7 @@ import java.io.IOException;
 
 
 /**
- * A simple {@link Fragment} subclass.
+ * A simple {@link Fragment} subclass. Fragmento con la funcionalidad de crear una nota nueva
  */
 public class CrearNota extends Fragment {
 

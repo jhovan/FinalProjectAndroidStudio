@@ -18,7 +18,7 @@ import java.io.IOException;
 
 
 /**
- * A simple {@link Fragment} subclass.
+ * A simple {@link Fragment} subclass. Fragmento con la funcionalidad de borrar una nota.
  */
 public class BorrarNota extends Fragment {
 

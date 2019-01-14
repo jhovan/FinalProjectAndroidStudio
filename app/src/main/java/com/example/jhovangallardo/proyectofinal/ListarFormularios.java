@@ -20,6 +20,7 @@ import java.util.List;
  * <p/>
  * Activities containing this fragment MUST implement the {@link OnListFragmentInteractionListener}
  * interface.
+ * Muestra la lista de ordenes en la base de datos
  */
 public class ListarFormularios extends Fragment {
 

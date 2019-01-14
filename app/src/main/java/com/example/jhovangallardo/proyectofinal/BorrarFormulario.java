@@ -14,7 +14,7 @@ import android.widget.Toast;
 
 
 /**
- * A simple {@link Fragment} subclass.
+ * A simple {@link Fragment} subclass. Fragmento con la funcionalidad de borrar un formulario (orden).
  */
 public class BorrarFormulario extends Fragment {
 

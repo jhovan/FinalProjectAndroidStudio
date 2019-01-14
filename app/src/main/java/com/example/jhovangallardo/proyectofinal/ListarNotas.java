@@ -22,6 +22,7 @@ import java.util.List;
  * <p/>
  * Activities containing this fragment MUST implement the {@link OnListFragmentInteractionListener}
  * interface.
+ * Muestra la lista de notas guardadas en la memoria del dispositivo.
  */
 public class ListarNotas extends Fragment {
 

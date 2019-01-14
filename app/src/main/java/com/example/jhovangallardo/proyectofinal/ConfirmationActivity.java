@@ -5,6 +5,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
 
+/**
+ * Actividad que muestra un mensaje de confirmacion cuando se compra una computadora
+ */
 
 public class ConfirmationActivity extends Activity{
     private TextView cliente;

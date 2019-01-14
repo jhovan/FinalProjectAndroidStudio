@@ -9,6 +9,9 @@ import android.util.Log;
 
 import java.util.ArrayList;
 
+/**
+*Se definen los metodos necesarios para administrar la base de datos de ordenes (insertar, consultar, modificar y eliminar ordenes)
+ */
 public class ComputadoraBDD {
 
 	private static final int VERSION = 1;

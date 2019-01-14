@@ -14,7 +14,8 @@ import android.widget.Toast;
 
 
 /**
- * A simple {@link Fragment} subclass.
+ * A simple {@link Fragment} subclass. Fragmento con la funcionalidad de editar un orden almacenada en la base de datos.
+ * Se introducen el id de la orden a editar.
  */
 public class EditarFormulario1 extends Fragment {
 

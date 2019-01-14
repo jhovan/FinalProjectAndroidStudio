@@ -5,6 +5,10 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteDatabase.CursorFactory;
 import android.database.sqlite.SQLiteOpenHelper;
 
+/**
+ * Crea la estructura de la base de datos para almacenar las ordenes de las computadoras
+ */
+
 public class ComputadoraBaseSQLite extends SQLiteOpenHelper {
 
 	private static final String TABLA_COMPUTADORA = "tabla_computadoras";

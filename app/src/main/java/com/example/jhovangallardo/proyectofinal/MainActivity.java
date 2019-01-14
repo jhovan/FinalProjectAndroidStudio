@@ -14,6 +14,10 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+/**
+*Actividad principal donde se muestran los menus y las opciones
+*Se hace una transicion entre fragmentos para cada funcionalidad
+*/
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
